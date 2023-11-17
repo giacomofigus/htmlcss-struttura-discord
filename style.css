@@ -118,7 +118,7 @@ main .hero{
     align-items: center;
     
 
-    background-color: var(--bgColorGreen);
+    background-color: var(--bgColorPurple);
     width: 400px;
     height: 500px;
     padding: 10px;
@@ -147,6 +147,49 @@ main .hero{
 }
 
 .second-section .description-container{
+    background-color: var(--bgColorPurple);
     width: 500px;
     height: 300px;
+}
+
+/* CTA Section start */
+.cta-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   
+    gap: 50px;
+    height: 100vh;
+}
+
+.cta-section :nth-child(1){
+    background-color: var(--bgColorYellow);
+    width: 65%;
+    height: 80px;
+}
+
+.cta-section :nth-child(2){
+    background-color: var(--bgColorRed);
+    width: 50%;
+    height: 50px;
+    
+}
+
+.cta-section :nth-child(3){
+    background-color: var(--bgColorGreen);
+    width: 50%;
+    height: 800px;
+}
+
+.cta-section :nth-child(4){
+    background-color: var(--bgColorPurple);
+    width: 30%;
+    height: 60px;
+}
+
+.cta-section :nth-child(5){
+    background-color: var(--bgColorYellow);
+    padding: 10px 30px;
 }
