@@ -98,7 +98,7 @@ main .hero{
 }
 
 /* First Section Start */
-.first-section-flex{
+.sections-flex{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -136,4 +136,17 @@ main .hero{
     background-color: var(--bgColorGrey);
     width: 250px;
     height: 250px;
+}
+
+/* Second Section */
+.second-section{
+    display: flex;
+    flex-direction: row-reverse;
+    
+    background-color: #F6F6F6;
+}
+
+.second-section .description-container{
+    width: 500px;
+    height: 300px;
 }
