@@ -13,16 +13,17 @@
     --bgColorPurple: #4731D1;
 }
 
+/* Header Start */
 header{
     background-color: var(--bgColorGreen);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px 10%;
+    padding: 30px 10%;
     
 }
 
-header #title{
+header #logo{
     background-color: var(--bgColorBlack);
     width: 150px;
     height: 50px;
@@ -30,14 +31,12 @@ header #title{
 
 nav ul{
     list-style-type: none;
-    
 }
 
 nav ul li{
     background-color: var(--bgColorPurple);
 
     display: inline-block;
-    gap: 10px;
     padding: 10px;
 }
 
@@ -46,4 +45,51 @@ header button{
     padding: 10px 30px;
 }
 
+/* Hero Start */
+main .hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: var(--bgColorPurple);
+    height: 90vh;
+}
 
+.hero .title-p-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+
+    background-color: var(--bgColorRed);
+    width: 1000px;
+    height: 500px;
+    padding: 20px;
+}
+
+.hero .title-p-container .title{
+    background-color: var(--bgColorYellow);
+
+    height: 80px;
+    width: 300px;
+}
+
+.hero .title-p-container p{
+    background-color: var(--bgColorGreen);
+
+    width: 500px;
+    height: 100px;
+}
+
+.hero .title-p-container .cta-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.hero .title-p-container .cta-container button{
+    background-color: var(--bgColorYellow);
+    padding: 10px 30px;
+}
